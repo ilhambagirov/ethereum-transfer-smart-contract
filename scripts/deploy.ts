@@ -8,7 +8,6 @@ const main = async () => {
   console.log("Transactions deployed to: ", transactions.address);
 }
 
-
 const runMain = async () => {
   try {
     await main();
